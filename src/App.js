@@ -13,7 +13,6 @@ import Moment from 'react-moment';
 import 'moment-timezone';
 
 const App = () => {
- 
    const [videos, setVideos] = useState(inicial);
    const [selectedVideo, setselectedVideo] = useState(inicial[0]);
    const [fav, setFav] = useState([]);
